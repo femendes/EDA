@@ -15,4 +15,19 @@ From this analysis, it was possible to verify the best cost-benefit and the loca
 
 The presented scenario of the proposal has as data sources the files in .csv format available in Kaggle. It is possible to access the wine data source by clicking [here](https://www.kaggle.com/datasets/zynicide/wine-reviews) and the location used is [GPS coordinates for every world country and every USA state](https://www.kaggle.com/datasets/paultimothymooney/latitude-and-longitude-for-every-country-and-state).
 
+## 3. EDA
+### 3.1 Data treatment
+The numerical variables were analyzed to check the data distribution, deviation of the points and price around the mean and outliers. However, for filling the missing data of points it was using the mean because the distribution of points seems like a normal distribution. 
 
+
+### 3.2 Hyphotesis
+
+
+
+
+## 4. Business analyses
+
+
+
+
+## 5. Conclusions
