@@ -29,6 +29,15 @@ Numerical variables were analyzed to verify data distribution, deviation of poin
   <img width="500" height="250" src="/img/hist_points.png">  <img width="500" height="250" src="/img/hist_price.png">
 </p>
 
+
+For the categorical variables, some terms were verified in the 'description' feature to know some flavors of the types of wine and the quantities. Most of the missing categorical data was filled in as 'Unknown'. For the 'variety' feature, a more careful analysis was performed, as it was only 1 data, to be filled in based on similar characteristics of the wines.
+
+In the image below it is possible to verify 3 flavors and their occurrence in the dataset:
+
+<p align="left">
+  <img width="650" height="300" src="/img/type_taste.png">  
+</p>
+
 ### 3.2 Hyphotesis
 
 
