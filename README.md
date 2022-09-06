@@ -17,12 +17,69 @@ The presented scenario of the proposal has as data sources the files in .csv for
 
 ## 3. EDA
 ### 3.1 Data treatment
-The numerical variables were analyzed to check the data distribution, deviation of the points and price around the mean and outliers. However, for filling the missing data of points it was using the mean because the distribution of points seems like a normal distribution. 
 
+Numerical variables were analyzed to verify data distribution, deviation of points and price around the mean and outliers. Thus, filling in the missing data of the points was used the mean because the distribution of the data looks like a normal distribution.
+
+| Variables | Max    | Min  |	Mean  | Median | Std	 | Skew  | Kutosis |
+| :---      | :---   | :--- | :---  | :---   | :---  | :---  | :---    |
+| Price     |	3300.0 | 4.0	| 35.36 | 25.0   | 41.02 | 18.00 | 829.52  |
+| Points    | 100.0  | 80.0	| 88.45 |	88.0   | 3.04	 | 0.05	 | -0.30   |
+
+<p align="left">
+  <img width="500" height="250" src="/img/hist_points.png">  <img width="500" height="250" src="/img/hist_price.png">
+</p>
+
+
+For the categorical variables, some terms were verified in the 'description' feature to know some flavors of the types of wine and the quantities. Most of the missing categorical data was filled in as 'Unknown'. For the 'variety' feature, a more careful analysis was performed, as it was only 1 data, to be filled in based on similar characteristics of the wines.
+
+In the image below it is possible to verify 3 flavors requested by the group, the Citrus flavor appears in more than 12k types of wine, being almost 10% of the dataset:
+
+<p align="left">
+  <img width="650" height="300" src="/img/type_taste.png">  
+</p>
 
 ### 3.2 Hyphotesis
+An exploratory analysis of the data was carried out to understand how the wines are distributed in relation to their locations, points, price, description, winery, etc. The group raised some hypotheses based on their previous experiences, to validate or invalidate these hypotheses, tests and analyzes were carried out to verify if the statements are true or false.
+
+**H1. Testing if the mean of points from Portugal is the same general mean of 88.45 points:**
+
+False. A one-sample statistical test was applied, testing whether the sample mean (Portugal) is equal to an ideal mean (general mean). The result showed that there is less than a 5% chance of the result being random, so the hypothesis that the average points of the Portuguese wine is the same as the general average of points is rejected.
+
+**H2. Most of the evaluated wines are from France:**
+
+False. Checking the number of wines evaluated in each country, most are in the US and France is in second position.
+![Image](/img/wines_eval_country.png)
+
+**H3. Few wines have no Taster rating:**
+
+False. Most of the wines do not have a known taster on the list, the majority being concentrated on "Unknown", the name chosen to fill in the missing data.
+![Image](/img/taster.png)
+
+**H4. The highest scoring Merlot is from Italy:**
+
+True. The highest-scoring Merlot type is in Italy.
+![Image](/img/best_merlot.png)
 
 
+**H5. The most expensive wines on average are from France:**
+
+False. The most expensive wines on average are in Switzerland. France is in 5th position.
+![Image](/img/price.png)
+
+**H6. Chardonnay are more expensive than Muscat:**
+
+True. Chardonnay wines are on average more expensive than Muscat.
+![Image](/img/chardo_muscat.png)
+
+**H7. The best wines are concentrated in Europe.:**
+
+False. There are 5 countries that have wines with 100 points. And 3 of them are European, but they also have Australia and US.
+![Image](/img/points.png)
+
+**H8. Roger Voss have the highest mean of the points:**
+
+False. The taster Roger Voss has the highest number of evaluated wines, however, he does not have the highest average points and occupies the 8th position. Anne Krebiehl MW has the highest point average.
+![Image](/img/points_taster.png)
 
 
 ## 4. Business analyses
