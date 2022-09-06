@@ -92,6 +92,8 @@ After confirming the hypotheses, the group wanted to know more about the types o
 | Bordeaux-style Red Blend | France	 | Château les Ormes Sorbet	| Roger Voss | 3300.0	| 88     |
 
 
+- These are the cheapest wines and their characteristics:
+
 |Variety	| Country	| Winery | Taster |	Price |	Points |	Ratio |
 | :---    | :---    | :---   | :---   | :---  | :---   | :---   | 
 |	Merlot |	US |	Bandit	| Unknown	| 4.0 |	86 |	21.50 |
@@ -105,5 +107,20 @@ After confirming the hypotheses, the group wanted to know more about the types o
 |	Tempranillo |	Spain	| Terrenal	| Michael Schachner	|4.0	|84	|21.00|
 |	Chardonnay	| US	| Pam's Cuties |	Jim Gordon	| 4.0	|83	|20.75|
 |	White Blend	| Spain |	Felix Solis	| Michael Schachner	|4.0|	82	|20.50|
+
+
+- It is possible to get the best value for money based on the low price and highest points: Merlot from the USA and Pinot Grigio from Romania. However, it is observed that this rate is relatively has very little variation among all wines with a value of less than U$ 4.
+
+![Image](/img/ratio.png)
+
+-
+
+![Image](/img/best_wines.png)
+
+
+![Image](/img/map_price_points.png)
+
+
+![Image](/img/map_mean_price.png)
 
 ## 5. Conclusions
