@@ -109,7 +109,7 @@ After confirming the hypotheses, the group wanted to know more about the types o
 |	White Blend	| Spain |	Felix Solis	| Michael Schachner	|4.0|	82	|20.50|
 
 
-- It is possible to get the best cost-benefit based on the low price and highest points: Merlot from the USA and Pinot Grigio from Romania. However, it is observed that this rate relatively has very little variation among all wines with a value of less than U$ 4.
+- It is possible to get the best cost-benefit based on the low price and highest points: Merlot from the USA and Pinot Grigio from Romania. However, it is observed that this rate relatively has very little variation among all wines with a value of less than $4.
 
 ![Image](/img/ratio.png)
 
@@ -117,10 +117,13 @@ After confirming the hypotheses, the group wanted to know more about the types o
 
 ![Image](/img/best_wines.png)
 
+- Since travelers love a map, key information has been entered into a map. For this, a dataset with the latitude and longitude coordinates of each country was added to obtain a better view of this information:
+- This map shows the most expensive wines in each country, with the size of the circles representing the price and the color scale of the points:
 
 ![Image](/img/map_price_points.png)
 
+- This map only shows the average prices of each country represented by the size of the circles and color scale:
 
 ![Image](/img/map_mean_price.png)
 
-## 5. Conclusions
+
