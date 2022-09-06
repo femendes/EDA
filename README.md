@@ -39,7 +39,15 @@ In the image below it is possible to verify 3 flavors requested by the group, th
 </p>
 
 ### 3.2 Hyphotesis
+An exploratory analysis of the data was carried out to understand how the wines are distributed in relation to their locations, points, price, description, winery, etc. The group raised some hypotheses based on their previous experiences, to validate or invalidate these hypotheses, tests and analyzes were carried out to verify if the statements are true or false.
 
+H1. Testing if the mean of points from Portugal is the same general mean of 88.45 points:
+
+False. A one-sample statistical test was applied, testing whether the sample mean (Portugal) is equal to an ideal mean (general mean). The result showed that there is less than a 5% chance of the result being random, so the hypothesis that the average points of the Portuguese wine is the same as the general average of points is rejected.
+
+H2. Most of the evaluated wines are from France:
+False. Checking the number of wines evaluated in each country, most are in the US and France is in second position.
+![Image](/img/wines_eval_country.png)
 
 
 
