@@ -117,7 +117,9 @@ After confirming the hypotheses, the group wanted to know more about the types o
 
 ![Image](/img/best_wines.png)
 
-- Since travelers love a map, key information has been entered into a map. For this, a dataset with the latitude and longitude coordinates of each country was added to obtain a better view of this information:
+
+
+Since travelers love a map, key information has been entered into a map. For this, a dataset with the latitude and longitude coordinates of each country was added to obtain a better view of this information:
 - This map shows the most expensive wines in each country, with the size of the circles representing the price and the color scale of the points:
 
 ![Image](/img/map_price_points.png)
