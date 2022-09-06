@@ -61,8 +61,25 @@ True. The highest-scoring Merlot type is in Italy.
 ![Image](/img/best_merlot.png)
 
 
+**H5. The most expensive wines on average are from France:**
 
+False. The most expensive wines on average are in Switzerland. France is in 5th position.
+![Image](/img/price.png)
 
+**H6. Chardonnay are more expensive than Muscat:**
+
+True. Chardonnay wines are on average more expensive than Muscat.
+![Image](/img/chardo_muscat.png)
+
+**H7. The best wines are concentrated in Europe.:**
+
+False. There are 5 countries that have wines with 100 points. And 3 of them are European, but they also have Australia and US.
+![Image](/img/points.png)
+
+**H8. Roger Voss have the highest mean of the points:**
+
+False. The taster Roger Voss has the highest number of evaluated wines, however, he does not have the highest average points and occupies the 8th position. Anne Krebiehl MW has the highest point average.
+![Image](/img/points_taster.png)
 
 
 ## 4. Business analyses
