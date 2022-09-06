@@ -109,11 +109,11 @@ After confirming the hypotheses, the group wanted to know more about the types o
 |	White Blend	| Spain |	Felix Solis	| Michael Schachner	|4.0|	82	|20.50|
 
 
-- It is possible to get the best value for money based on the low price and highest points: Merlot from the USA and Pinot Grigio from Romania. However, it is observed that this rate is relatively has very little variation among all wines with a value of less than U$ 4.
+- It is possible to get the best cost-benefit based on the low price and highest points: Merlot from the USA and Pinot Grigio from Romania. However, it is observed that this rate relatively has very little variation among all wines with a value of less than U$ 4.
 
 ![Image](/img/ratio.png)
 
--
+- Here are the provinces where the best wines are found. There is a wide range of prices with a low of $80 and a high of $1,500. So, it is possible to get a 100 point wine for only $80 like a Syrah from Washington (USA).
 
 ![Image](/img/best_wines.png)
 
