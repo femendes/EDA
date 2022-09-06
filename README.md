@@ -83,8 +83,27 @@ False. The taster Roger Voss has the highest number of evaluated wines, however,
 
 
 ## 4. Business analyses
+After confirming the hypotheses, the group wanted to know more about the types of wines. Where were the best wines in terms of points, price, location and the best value for money.
+
+- This is the more expensive wine and its characteristics:
+
+| Variety	                 | Country |	Winery	                | Taster	   | Price	| Points |
+| :---                     | :---    | :---                     | :---       | :---   | :---   | 
+| Bordeaux-style Red Blend | France	 | Château les Ormes Sorbet	| Roger Voss | 3300.0	| 88     |
 
 
-
+|Variety	| Country	| Winery | Taster |	Price |	Points |	Ratio |
+| :---    | :---    | :---   | :---   | :---  | :---   | :---   | 
+|	Merlot |	US |	Bandit	| Unknown	| 4.0 |	86 |	21.50 |
+| Pinot Grigio |	Romania	| Cramele Recas	|Anna Lee C. Iijima	|4.0	|86	|21.50|
+| Syrah	| Spain	| Felix Solis	|Michael Schachner	|4.0	|85	|21.25|
+| White Blend	| US	| Dancing Coyote	|Jim Gordon	|4.0	|85	|21.25|
+|	Malbec-Syrah	| Argentina |	Broke Ass	|Michael Schachner |	4.0 | 84	|21.00|
+|	Chardonnay	| US | 	Bandit	| Unknown	|4.0	|84	|21.00|
+|	Cabernet Sauvignon	| Spain |	Terrenal	|Michael Schachner	|4.0|	84	|21.00|
+|	Merlot |	US	| Bandit	| Unknown	|4.0	|84	|21.00|
+|	Tempranillo |	Spain	| Terrenal	| Michael Schachner	|4.0	|84	|21.00|
+|	Chardonnay	| US	| Pam's Cuties |	Jim Gordon	| 4.0	|83	|20.75|
+|	White Blend	| Spain |	Felix Solis	| Michael Schachner	|4.0|	82	|20.50|
 
 ## 5. Conclusions
