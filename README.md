@@ -17,8 +17,17 @@ The presented scenario of the proposal has as data sources the files in .csv for
 
 ## 3. EDA
 ### 3.1 Data treatment
-The numerical variables were analyzed to check the data distribution, deviation of the points and price around the mean and outliers. However, for filling the missing data of points it was using the mean because the distribution of points seems like a normal distribution. 
 
+Numerical variables were analyzed to verify data distribution, deviation of points and price around the mean and outliers. Thus, filling in the missing data of the points was used the mean because the distribution of the data looks like a normal distribution.
+
+| Variables | Max    | Min  |	Mean  | Median | Std	 | Skew  | Kutosis |
+| :---      | :---   | :--- | :---  | :---   | :---  | :---  | :---    |
+| Price     |	3300.0 | 4.0	| 35.36 | 25.0   | 41.02 | 18.00 | 829.52  |
+| Points    | 100.0  | 80.0	| 88.45 |	88.0   | 3.04	 | 0.05	 | -0.30   |
+
+<p align="left">
+  <img width="500" height="250" src="/img/hist_points.png">  <img width="500" height="250" src="/img/hist_price.png">
+</p>
 
 ### 3.2 Hyphotesis
 
