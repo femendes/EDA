@@ -25,18 +25,15 @@ Numerical variables were analyzed to verify data distribution, deviation of poin
 | Price     |	3300.0 | 4.0	| 35.36 | 25.0   | 41.02 | 18.00 | 829.52  |
 | Points    | 100.0  | 80.0	| 88.45 |	88.0   | 3.04	 | 0.05	 | -0.30   |
 
-<p align="left">
-  <img width="500" height="250" src="/img/hist_points.png">  <img width="500" height="250" src="/img/hist_price.png">
-</p>
-
+![Image](/img/hist_points.png)
+![Image](/img/hist_price.png)
 
 For the categorical variables, some terms were verified in the 'description' feature to know some flavors of the types of wine and the quantities. Most of the missing categorical data was filled in as 'Unknown'. For the 'variety' feature, a more careful analysis was performed, as it was only 1 data, to be filled in based on similar characteristics of the wines.
 
-In the image below it is possible to verify 3 flavors requested by the group, the Citrus flavor appears in more than 12k types of wine, being almost 10% of the dataset:
+- In the image below it is possible to verify 3 flavors requested by the group, the Citrus flavor appears in more than 12k types of wine, being almost 10% of the dataset:
 
-<p align="left">
-  <img width="650" height="300" src="/img/type_taste.png">  
-</p>
+![Image](/img/type_taste.png)
+
 
 ### 3.2 Hyphotesis
 An exploratory analysis of the data was carried out to understand how the wines are distributed in relation to their locations, points, price, description, winery, etc. The group raised some hypotheses based on their previous experiences, to validate or invalidate these hypotheses, tests and analyzes were carried out to verify if the statements are true or false.
